@@ -1,1 +1,63 @@
-/* место для вашего кода */
+.cover {
+  min-height: 520px;
+  background: url(../images/cover.jpg) center / cover no-repeat;
+}
+
+.lots {
+  margin-top: 80px;
+}
+
+.about {
+  margin-top: 100px;
+}
+
+.footer {
+  margin-top: 100px;
+  padding-bottom: 60px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.35;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  padding: 92px 50px 96px;
+}
+
+.header__links-list {
+  display: flex;
+  gap: 31px;
+  list-style: circle;
+  font-size: 18px;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  display: block;
+}
+
+.header__address {
+  max-width: 240px;
+  justify-self: end;
+}
